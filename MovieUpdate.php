@@ -1,0 +1,33 @@
+<HTML>
+	<HEAD>
+		<title>
+			Update or Delete a Movie
+		</title>
+	</HEAD>
+	<BODY>
+		<H1>
+		</H1>
+			<img width='745' height='76' src='Cinemark_logo.png'></img>
+	</BODY>
+	<p>
+		<br>
+		Please complete the following form:<br>
+		<br>
+		<form>
+			Title:<br>
+			<input type="text" name = "Title"><br>
+			Release Date: <br>
+			<input type="text" name = "Release Date"><br>
+			Description: <br>
+			<input type="text" name = "Description"><br>
+			Trailer URL:<br>
+			<input type="text" name = "Trailer URL"><br>
+			Auditorium:<br>
+			<input type="text" name = "Auditorium"><br>
+			</form>
+			<br>
+			<form action="MovieList.php">
+				<input type="Submit" value = "Submit">
+		</form>
+	</p>
+</HTML>
